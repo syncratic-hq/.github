@@ -22,9 +22,9 @@ nobody else can see. What remains is *syn* ("together") + *kratos* ("rule"):
 
 Engineering teams now run several AI coding agents at once — Claude Code,
 Cursor, Copilot, Windsurf, and more. Each one is configured through its own
-proprietary files: rules, skills, commands, instructions. The collection is
-what we call an **agent playbook**, and today there is no good way to store
-it once, share it across a team, and keep it in sync across tools.
+proprietary files: rules, skills, commands, instructions. Each of these
+artifacts is what we call an **agent primitive**, and today there is no good way to store
+them once, share them across a team, and keep them in sync across tools.
 
 So teams improvise: ad-hoc repos, hand-managed symlinks, copy-paste. The same
 guidance gets written three times in three dialects. Agent behavior drifts
@@ -36,7 +36,7 @@ more every month: *what instructions are our agents actually running?*
 Syncratic is the **management layer for AI agent configuration** — not
 another standard, and not another agent.
 
-- **Author once.** Your team's playbooks live in one reviewable,
+- **Author once.** Your team's primitives live in one reviewable,
   version-controlled source of truth.
 - **Materialize everywhere.** Adapters project each artifact into the exact
   format and location every agent ecosystem expects — on every machine,
@@ -58,7 +58,7 @@ another standard, and not another agent.
 ## Where we are
 
 Early. We're heads-down building the first release — starting with **Agent
-Playbooks** for Claude Code and Cursor — and we'd rather ship something
+Primitives** for Claude Code and Cursor — and we'd rather ship something
 precise than announce something vague.
 
 Follow this organization to be there when it lands.
